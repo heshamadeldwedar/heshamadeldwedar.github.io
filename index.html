@@ -43,7 +43,7 @@
         <p class="hero-title animate-on-scroll" style="animation-delay: 0.3s;">Senior Software Engineer</p>
         <p class="hero-tagline animate-on-scroll" style="animation-delay: 0.4s;">Full-stack engineer crafting scalable, user-centric solutions</p>
         <div class="cta-row animate-on-scroll" style="animation-delay: 0.5s;">
-            <a href="mailto:contact@hesham.dev" class="btn btn-primary">
+            <a href="mailto:contact@hesham.adel.dwedar@gmail.com" class="btn btn-primary">
                 <i data-lucide="mail"></i>
                 Email Me
             </a>
@@ -343,7 +343,7 @@
             <h2>Let's Build Something Together</h2>
             <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
             <div class="footer-btns">
-                <a href="mailto:contact@hesham.dev" class="btn btn-primary">
+                <a href="mailto:contact@hesham.adel.dwedar@gmail.com" class="btn btn-primary">
                     <i data-lucide="mail"></i>
                     Email Me
                 </a>
@@ -395,6 +395,7 @@
         const navbar = document.querySelector('.navbar');
         const sections = document.querySelectorAll('section[id]');
         const navItems = document.querySelectorAll('.nav-links a');
+        const expCards = document.querySelectorAll('.exp-card');
 
         function updateActiveNav() {
             const scrollY = window.scrollY;
@@ -422,8 +423,39 @@
             }
         }
 
-        window.addEventListener('scroll', updateActiveNav);
-        updateActiveNav(); // Initial call
+        // Experience cards scroll highlighting
+        function updateActiveExpCard() {
+            const viewportCenter = window.scrollY + window.innerHeight / 2;
+            let closestCard = null;
+            let closestDistance = Infinity;
+
+            expCards.forEach(card => {
+                const cardTop = card.offsetTop;
+                const cardCenter = cardTop + card.offsetHeight / 2;
+                const distance = Math.abs(viewportCenter - cardCenter);
+
+                if (distance < closestDistance) {
+                    closestDistance = distance;
+                    closestCard = card;
+                }
+            });
+
+            expCards.forEach(card => {
+                card.classList.remove('current');
+            });
+
+            if (closestCard && closestDistance < window.innerHeight) {
+                closestCard.classList.add('current');
+            }
+        }
+
+        window.addEventListener('scroll', () => {
+            updateActiveNav();
+            updateActiveExpCard();
+        });
+
+        updateActiveNav();
+        updateActiveExpCard();
 
         // Smooth scroll for anchor links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
