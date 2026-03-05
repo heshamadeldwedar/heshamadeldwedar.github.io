@@ -564,7 +564,7 @@ section {
 
 .exp-date {
     display: block;
-    color: var(--text-muted);
+    color: #b8c0cb;
     font-family: var(--font-mono);
     font-size: 12px;
     font-weight: 500;
@@ -572,7 +572,7 @@ section {
 }
 
 .exp-location {
-    color: var(--text-dim);
+    color: #b8c0cb;
     font-family: var(--font-mono);
     font-size: 12px;
 }
@@ -584,7 +584,7 @@ section {
 }
 
 .exp-bullets li {
-    color: var(--text-secondary);
+    color: #b8c0cb;
     font-size: 14px;
     padding-left: 16px;
     position: relative;

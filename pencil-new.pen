@@ -219,7 +219,8 @@
               "content": "Full-stack engineer crafting scalable, user-centric solutions",
               "textAlign": "center",
               "fontFamily": "Inter",
-              "fontSize": 18
+              "fontSize": 18,
+              "fontWeight": "normal"
             },
             {
               "type": "frame",
@@ -334,7 +335,8 @@
                       "fill": "#64748B",
                       "content": "+201091024404",
                       "fontFamily": "JetBrains Mono",
-                      "fontSize": 13
+                      "fontSize": 13,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -362,7 +364,8 @@
                       "fill": "#64748B",
                       "content": "Cairo, Egypt",
                       "fontFamily": "JetBrains Mono",
-                      "fontSize": 13
+                      "fontSize": 13,
+                      "fontWeight": "normal"
                     }
                   ]
                 }
@@ -431,7 +434,8 @@
                   "content": "Full-stack Software Engineer with a strong emphasis on product development and user-centric solutions. Specializes in backend development with extensive experience in the Node.js and PHP ecosystems. Proven track record in designing and implementing scalable applications using modern frameworks, including NestJS and Laravel. Proficient in both SQL and NoSQL databases, with hands-on DevOps experience. Combines technical expertise with a product-focused mindset to deliver robust, market-ready solutions.",
                   "lineHeight": 1.7,
                   "fontFamily": "Inter",
-                  "fontSize": 18
+                  "fontSize": 18,
+                  "fontWeight": "normal"
                 },
                 {
                   "type": "frame",
@@ -690,7 +694,8 @@
                           "fill": "#94A3B8",
                           "content": "• VueJS",
                           "fontFamily": "JetBrains Mono",
-                          "fontSize": 14
+                          "fontSize": 14,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "text",
@@ -699,7 +704,8 @@
                           "fill": "#94A3B8",
                           "content": "• AngularJS",
                           "fontFamily": "JetBrains Mono",
-                          "fontSize": 14
+                          "fontSize": 14,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "text",
@@ -708,7 +714,8 @@
                           "fill": "#94A3B8",
                           "content": "• JavaScript/TypeScript",
                           "fontFamily": "JetBrains Mono",
-                          "fontSize": 14
+                          "fontSize": 14,
+                          "fontWeight": "normal"
                         }
                       ]
                     }
@@ -768,7 +775,8 @@
                           "fill": "#94A3B8",
                           "content": "• Node.js / NestJS",
                           "fontFamily": "JetBrains Mono",
-                          "fontSize": 14
+                          "fontSize": 14,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "text",
@@ -777,7 +785,8 @@
                           "fill": "#94A3B8",
                           "content": "• PHP / Laravel",
                           "fontFamily": "JetBrains Mono",
-                          "fontSize": 14
+                          "fontSize": 14,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "text",
@@ -786,7 +795,8 @@
                           "fill": "#94A3B8",
                           "content": "• Python Flask",
                           "fontFamily": "JetBrains Mono",
-                          "fontSize": 14
+                          "fontSize": 14,
+                          "fontWeight": "normal"
                         }
                       ]
                     }
@@ -846,7 +856,8 @@
                           "fill": "#94A3B8",
                           "content": "• Docker",
                           "fontFamily": "JetBrains Mono",
-                          "fontSize": 14
+                          "fontSize": 14,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "text",
@@ -855,7 +866,8 @@
                           "fill": "#94A3B8",
                           "content": "• Kubernetes",
                           "fontFamily": "JetBrains Mono",
-                          "fontSize": 14
+                          "fontSize": 14,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "text",
@@ -864,7 +876,8 @@
                           "fill": "#94A3B8",
                           "content": "• CI/CD Pipelines",
                           "fontFamily": "JetBrains Mono",
-                          "fontSize": 14
+                          "fontSize": 14,
+                          "fontWeight": "normal"
                         }
                       ]
                     }
@@ -924,7 +937,8 @@
                           "fill": "#94A3B8",
                           "content": "• MongoDB",
                           "fontFamily": "JetBrains Mono",
-                          "fontSize": 14
+                          "fontSize": 14,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "text",
@@ -933,7 +947,8 @@
                           "fill": "#94A3B8",
                           "content": "• PostgreSQL / MySQL",
                           "fontFamily": "JetBrains Mono",
-                          "fontSize": 14
+                          "fontSize": 14,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "text",
@@ -942,7 +957,8 @@
                           "fill": "#94A3B8",
                           "content": "• Elasticsearch",
                           "fontFamily": "JetBrains Mono",
-                          "fontSize": 14
+                          "fontSize": 14,
+                          "fontWeight": "normal"
                         }
                       ]
                     }
@@ -1068,7 +1084,7 @@
                               "type": "text",
                               "id": "F7u2M",
                               "name": "exp1Date",
-                              "fill": "#64748B",
+                              "fill": "#b8c0cbff",
                               "content": "Feb 2025 - Present",
                               "fontFamily": "JetBrains Mono",
                               "fontSize": 12,
@@ -1078,10 +1094,11 @@
                               "type": "text",
                               "id": "DAwOF",
                               "name": "exp1Loc",
-                              "fill": "#475569",
+                              "fill": "#b8c0cbff",
                               "content": "Remote (Saudi Arabia)",
                               "fontFamily": "JetBrains Mono",
-                              "fontSize": 12
+                              "fontSize": 12,
+                              "fontWeight": "normal"
                             }
                           ]
                         }
@@ -1092,6 +1109,7 @@
                       "id": "WmTca",
                       "name": "exp1Bullets",
                       "width": "fill_container",
+                      "height": 69,
                       "layout": "vertical",
                       "gap": 8,
                       "children": [
@@ -1099,34 +1117,37 @@
                           "type": "text",
                           "id": "tvdG9",
                           "name": "exp1B1",
-                          "fill": "#94A3B8",
+                          "fill": "#b8c0cbff",
                           "textGrowth": "fixed-width",
                           "width": 1000,
                           "content": "• Built a centralized integration hub to manage all service integrations",
                           "fontFamily": "Inter",
-                          "fontSize": 14
+                          "fontSize": 14,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "text",
                           "id": "CbCdu",
                           "name": "exp1B2",
-                          "fill": "#94A3B8",
+                          "fill": "#b8c0cbff",
                           "textGrowth": "fixed-width",
                           "width": 1000,
                           "content": "• Integrated the new hub endpoint into the existing monolith application",
                           "fontFamily": "Inter",
-                          "fontSize": 14
+                          "fontSize": 14,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "text",
                           "id": "C9KrV",
                           "name": "exp1B3",
-                          "fill": "#94A3B8",
+                          "fill": "#b8c0cbff",
                           "textGrowth": "fixed-width",
                           "width": 1000,
                           "content": "• Designed a system for service reconciliation and implemented a circuit breaker for unstable services",
                           "fontFamily": "Inter",
-                          "fontSize": 14
+                          "fontSize": 14,
+                          "fontWeight": "normal"
                         }
                       ]
                     }
@@ -1192,7 +1213,7 @@
                               "type": "text",
                               "id": "qMfUU",
                               "name": "exp2Date",
-                              "fill": "#64748B",
+                              "fill": "#b8c0cbff",
                               "content": "Jan 2022 - Feb 2025",
                               "fontFamily": "JetBrains Mono",
                               "fontSize": 12,
@@ -1202,10 +1223,11 @@
                               "type": "text",
                               "id": "qwbu8",
                               "name": "exp2Loc",
-                              "fill": "#475569",
+                              "fill": "#b8c0cbff",
                               "content": "Remote (USA)",
                               "fontFamily": "JetBrains Mono",
-                              "fontSize": 12
+                              "fontSize": 12,
+                              "fontWeight": "normal"
                             }
                           ]
                         }
@@ -1223,34 +1245,37 @@
                           "type": "text",
                           "id": "bmGi1",
                           "name": "exp2B1",
-                          "fill": "#94A3B8",
+                          "fill": "#00000000",
                           "textGrowth": "fixed-width",
                           "width": 1000,
                           "content": "• Developed scalable property dashboard using AngularJS, PHP, and NodeJS",
                           "fontFamily": "Inter",
-                          "fontSize": 14
+                          "fontSize": 14,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "text",
                           "id": "H7Gae",
                           "name": "exp2B2",
-                          "fill": "#94A3B8",
+                          "fill": "#cdd3dcff",
                           "textGrowth": "fixed-width",
                           "width": 1000,
                           "content": "• Built responsive frontend with real-time updates",
                           "fontFamily": "Inter",
-                          "fontSize": 14
+                          "fontSize": 14,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "text",
                           "id": "kH6n6",
                           "name": "exp2B3",
-                          "fill": "#94A3B8",
+                          "fill": "#b8c0cbff",
                           "textGrowth": "fixed-width",
                           "width": 1000,
                           "content": "• Implemented integrations: QuickBooks, Payrix, Card Knox, bill.com, Rossum OCR",
                           "fontFamily": "Inter",
-                          "fontSize": 14
+                          "fontSize": 14,
+                          "fontWeight": "normal"
                         }
                       ]
                     }
@@ -1316,7 +1341,7 @@
                               "type": "text",
                               "id": "KYgLU",
                               "name": "exp3Date",
-                              "fill": "#64748B",
+                              "fill": "#b8c0cbff",
                               "content": "Jun 2020 - Jan 2022",
                               "fontFamily": "JetBrains Mono",
                               "fontSize": 12,
@@ -1326,10 +1351,11 @@
                               "type": "text",
                               "id": "uVOJV",
                               "name": "exp3Loc",
-                              "fill": "#475569",
+                              "fill": "#b8c0cbff",
                               "content": "Cairo, Egypt",
                               "fontFamily": "JetBrains Mono",
-                              "fontSize": 12
+                              "fontSize": 12,
+                              "fontWeight": "normal"
                             }
                           ]
                         }
@@ -1347,34 +1373,37 @@
                           "type": "text",
                           "id": "tyeoe",
                           "name": "exp3B1",
-                          "fill": "#94A3B8",
+                          "fill": "#b8c0cbff",
                           "textGrowth": "fixed-width",
                           "width": 1000,
                           "content": "• Developed scalable dashboard application using VueJS and Laravel",
                           "fontFamily": "Inter",
-                          "fontSize": 14
+                          "fontSize": 14,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "text",
                           "id": "bxUio",
                           "name": "exp3B2",
-                          "fill": "#94A3B8",
+                          "fill": "#b8c0cbff",
                           "textGrowth": "fixed-width",
                           "width": 1000,
                           "content": "• Implemented Stripe and PayPal payment gateways",
                           "fontFamily": "Inter",
-                          "fontSize": 14
+                          "fontSize": 14,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "text",
                           "id": "UOcJN",
                           "name": "exp3B3",
-                          "fill": "#94A3B8",
+                          "fill": "#b8c0cbff",
                           "textGrowth": "fixed-width",
                           "width": 1000,
                           "content": "• Integrated QuickBooks API for financial tracking",
                           "fontFamily": "Inter",
-                          "fontSize": 14
+                          "fontSize": 14,
+                          "fontWeight": "normal"
                         }
                       ]
                     }
@@ -1440,7 +1469,7 @@
                               "type": "text",
                               "id": "UFmOl",
                               "name": "exp4Date",
-                              "fill": "#64748B",
+                              "fill": "#b8c0cbff",
                               "content": "Aug 2019 - May 2020",
                               "fontFamily": "JetBrains Mono",
                               "fontSize": 12,
@@ -1450,10 +1479,11 @@
                               "type": "text",
                               "id": "oSGxr",
                               "name": "exp4Loc",
-                              "fill": "#475569",
+                              "fill": "#b8c0cbff",
                               "content": "Cairo, Egypt",
                               "fontFamily": "JetBrains Mono",
-                              "fontSize": 12
+                              "fontSize": 12,
+                              "fontWeight": "normal"
                             }
                           ]
                         }
@@ -1471,34 +1501,37 @@
                           "type": "text",
                           "id": "6Bf61",
                           "name": "exp4B1",
-                          "fill": "#94A3B8",
+                          "fill": "#b8c0cbff",
                           "textGrowth": "fixed-width",
                           "width": 1000,
                           "content": "• Led development team managing 19 microservices infrastructure",
                           "fontFamily": "Inter",
-                          "fontSize": 14
+                          "fontSize": 14,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "text",
                           "id": "boKIU",
                           "name": "exp4B2",
-                          "fill": "#94A3B8",
+                          "fill": "#b8c0cbff",
                           "textGrowth": "fixed-width",
                           "width": 1000,
                           "content": "• Orchestrated migration from AWS ECS to Google Kubernetes",
                           "fontFamily": "Inter",
-                          "fontSize": 14
+                          "fontSize": 14,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "text",
                           "id": "zl3EN",
                           "name": "exp4B3",
-                          "fill": "#94A3B8",
+                          "fill": "#b8c0cbff",
                           "textGrowth": "fixed-width",
                           "width": 1000,
                           "content": "• Developed cost-efficient GPU solution for AI operations",
                           "fontFamily": "Inter",
-                          "fontSize": 14
+                          "fontSize": 14,
+                          "fontWeight": "normal"
                         }
                       ]
                     }
@@ -1564,7 +1597,7 @@
                               "type": "text",
                               "id": "zjPdX",
                               "name": "exp5Date",
-                              "fill": "#64748B",
+                              "fill": "#b8c0cbff",
                               "content": "Apr 2018 - Aug 2019",
                               "fontFamily": "JetBrains Mono",
                               "fontSize": 12,
@@ -1574,10 +1607,11 @@
                               "type": "text",
                               "id": "fbwnb",
                               "name": "exp5Loc",
-                              "fill": "#475569",
+                              "fill": "#b8c0cbff",
                               "content": "Cairo, Egypt",
                               "fontFamily": "JetBrains Mono",
-                              "fontSize": 12
+                              "fontSize": 12,
+                              "fontWeight": "normal"
                             }
                           ]
                         }
@@ -1595,34 +1629,37 @@
                           "type": "text",
                           "id": "9hWCy",
                           "name": "exp5B1",
-                          "fill": "#94A3B8",
+                          "fill": "#b8c0cbff",
                           "textGrowth": "fixed-width",
                           "width": 1000,
                           "content": "• Engineered hotel booking system across 76 microservices using NodeJS",
                           "fontFamily": "Inter",
-                          "fontSize": 14
+                          "fontSize": 14,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "text",
                           "id": "B20fF",
                           "name": "exp5B2",
-                          "fill": "#94A3B8",
+                          "fill": "#b8c0cbff",
                           "textGrowth": "fixed-width",
                           "width": 1000,
                           "content": "• Implemented geolocation search using MongoDB and radius queries",
                           "fontFamily": "Inter",
-                          "fontSize": 14
+                          "fontSize": 14,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "text",
                           "id": "dZB1j",
                           "name": "exp5B3",
-                          "fill": "#94A3B8",
+                          "fill": "#b8c0cbff",
                           "textGrowth": "fixed-width",
                           "width": 1000,
                           "content": "• Integrated STC Qitaf payment gateway and developed order management system",
                           "fontFamily": "Inter",
-                          "fontSize": 14
+                          "fontSize": 14,
+                          "fontWeight": "normal"
                         }
                       ]
                     }
@@ -1688,7 +1725,7 @@
                               "type": "text",
                               "id": "RKnPB",
                               "name": "exp6Date",
-                              "fill": "#64748B",
+                              "fill": "#b8c0cbff",
                               "content": "Mar 2017 - Aug 2018",
                               "fontFamily": "JetBrains Mono",
                               "fontSize": 12,
@@ -1698,10 +1735,11 @@
                               "type": "text",
                               "id": "Xvvzo",
                               "name": "exp6Loc",
-                              "fill": "#475569",
+                              "fill": "#b8c0cbff",
                               "content": "Cairo, Egypt",
                               "fontFamily": "JetBrains Mono",
-                              "fontSize": 12
+                              "fontSize": 12,
+                              "fontWeight": "normal"
                             }
                           ]
                         }
@@ -1719,34 +1757,37 @@
                           "type": "text",
                           "id": "ZB1eR",
                           "name": "exp6B1",
-                          "fill": "#94A3B8",
+                          "fill": "#b8c0cbff",
                           "textGrowth": "fixed-width",
                           "width": 1000,
                           "content": "• Built insurance sales platform using NodeJS APIs",
                           "fontFamily": "Inter",
-                          "fontSize": 14
+                          "fontSize": 14,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "text",
                           "id": "M8aFD",
                           "name": "exp6B2",
-                          "fill": "#94A3B8",
+                          "fill": "#b8c0cbff",
                           "textGrowth": "fixed-width",
                           "width": 1000,
                           "content": "• Integrated Converge payment gateway and credit score services",
                           "fontFamily": "Inter",
-                          "fontSize": 14
+                          "fontSize": 14,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "text",
                           "id": "A3gNw",
                           "name": "exp6B3",
-                          "fill": "#94A3B8",
+                          "fill": "#b8c0cbff",
                           "textGrowth": "fixed-width",
                           "width": 1000,
                           "content": "• Engineered business interruption insurance system",
                           "fontFamily": "Inter",
-                          "fontSize": 14
+                          "fontSize": 14,
+                          "fontWeight": "normal"
                         }
                       ]
                     }
@@ -1812,7 +1853,7 @@
                               "type": "text",
                               "id": "JNO2n",
                               "name": "exp7Date",
-                              "fill": "#64748B",
+                              "fill": "#b8c0cbff",
                               "content": "Oct 2016 - Mar 2017",
                               "fontFamily": "JetBrains Mono",
                               "fontSize": 12,
@@ -1822,10 +1863,11 @@
                               "type": "text",
                               "id": "CtOqL",
                               "name": "exp7Loc",
-                              "fill": "#475569",
+                              "fill": "#b8c0cbff",
                               "content": "Cairo, Egypt",
                               "fontFamily": "JetBrains Mono",
-                              "fontSize": 12
+                              "fontSize": 12,
+                              "fontWeight": "normal"
                             }
                           ]
                         }
@@ -1843,34 +1885,37 @@
                           "type": "text",
                           "id": "TLyIt",
                           "name": "exp7B1",
-                          "fill": "#94A3B8",
+                          "fill": "#b8c0cbff",
                           "textGrowth": "fixed-width",
                           "width": 1000,
                           "content": "• Engineered banking workflows using IBM BPM",
                           "fontFamily": "Inter",
-                          "fontSize": 14
+                          "fontSize": 14,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "text",
                           "id": "cVSKe",
                           "name": "exp7B2",
-                          "fill": "#94A3B8",
+                          "fill": "#b8c0cbff",
                           "textGrowth": "fixed-width",
                           "width": 1000,
                           "content": "• Developed frontend applications using DojoJS",
                           "fontFamily": "Inter",
-                          "fontSize": 14
+                          "fontSize": 14,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "text",
                           "id": "BbP7d",
                           "name": "exp7B3",
-                          "fill": "#94A3B8",
+                          "fill": "#b8c0cbff",
                           "textGrowth": "fixed-width",
                           "width": 1000,
                           "content": "• Built responsive user interfaces with JavaScript",
                           "fontFamily": "Inter",
-                          "fontSize": 14
+                          "fontSize": 14,
+                          "fontWeight": "normal"
                         }
                       ]
                     }
@@ -1983,7 +2028,8 @@
                       "fill": "#94A3B8",
                       "content": "High Institute of Technology, Shrouk Academy",
                       "fontFamily": "Inter",
-                      "fontSize": 16
+                      "fontSize": 16,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "text",
@@ -2059,7 +2105,8 @@
                       "fill": "#94A3B8",
                       "content": "Harvard University (Online)",
                       "fontFamily": "Inter",
-                      "fontSize": 16
+                      "fontSize": 16,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "text",
@@ -2121,7 +2168,8 @@
                   "content": "I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.",
                   "textAlign": "center",
                   "fontFamily": "Inter",
-                  "fontSize": 16
+                  "fontSize": 16,
+                  "fontWeight": "normal"
                 },
                 {
                   "type": "frame",
@@ -2230,7 +2278,8 @@
                   "fill": "#64748B",
                   "content": "© 2025 Hesham Adel. All rights reserved.",
                   "fontFamily": "Inter",
-                  "fontSize": 13
+                  "fontSize": 13,
+                  "fontWeight": "normal"
                 },
                 {
                   "type": "text",
@@ -2239,7 +2288,8 @@
                   "fill": "#475569",
                   "content": "Built with passion and code",
                   "fontFamily": "JetBrains Mono",
-                  "fontSize": 12
+                  "fontSize": 12,
+                  "fontWeight": "normal"
                 }
               ]
             }
@@ -2373,7 +2423,8 @@
                       "content": "A deep dive into our migration journey, the challenges we faced, and how we achieved a more cost-efficient infrastructure.",
                       "lineHeight": 1.5,
                       "fontFamily": "Inter",
-                      "fontSize": 14
+                      "fontSize": 14,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "text",
@@ -2382,7 +2433,8 @@
                       "fill": "#64748B",
                       "content": "Dec 15, 2024 • 8 min read",
                       "fontFamily": "JetBrains Mono",
-                      "fontSize": 12
+                      "fontSize": 12,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -2443,7 +2495,8 @@
                       "content": "How to structure your NestJS applications for scalability, maintainability, and team collaboration.",
                       "lineHeight": 1.5,
                       "fontFamily": "Inter",
-                      "fontSize": 14
+                      "fontSize": 14,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "text",
@@ -2452,7 +2505,8 @@
                       "fill": "#64748B",
                       "content": "Nov 28, 2024 • 12 min read",
                       "fontFamily": "JetBrains Mono",
-                      "fontSize": 12
+                      "fontSize": 12,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -2513,7 +2567,8 @@
                       "content": "Everything you need to know about integrating Stripe, PayPal, and other payment gateways in your applications.",
                       "lineHeight": 1.5,
                       "fontFamily": "Inter",
-                      "fontSize": 14
+                      "fontSize": 14,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "text",
@@ -2522,7 +2577,8 @@
                       "fill": "#64748B",
                       "content": "Oct 10, 2024 • 10 min read",
                       "fontFamily": "JetBrains Mono",
-                      "fontSize": 12
+                      "fontSize": 12,
+                      "fontWeight": "normal"
                     }
                   ]
                 }
@@ -2703,7 +2759,8 @@
               "content": "Full-stack engineer crafting scalable, user-centric solutions",
               "textAlign": "center",
               "fontFamily": "Inter",
-              "fontSize": 14
+              "fontSize": 14,
+              "fontWeight": "normal"
             },
             {
               "type": "frame",
@@ -2821,7 +2878,8 @@
                       "fill": "#64748B",
                       "content": "+201091024404",
                       "fontFamily": "JetBrains Mono",
-                      "fontSize": 12
+                      "fontSize": 12,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -2849,7 +2907,8 @@
                       "fill": "#64748B",
                       "content": "Cairo, Egypt",
                       "fontFamily": "JetBrains Mono",
-                      "fontSize": 12
+                      "fontSize": 12,
+                      "fontWeight": "normal"
                     }
                   ]
                 }
@@ -2910,7 +2969,8 @@
               "content": "Full-stack Software Engineer with a strong emphasis on product development and user-centric solutions. Specializes in backend development with extensive experience in the Node.js and PHP ecosystems.",
               "lineHeight": 1.6,
               "fontFamily": "Inter",
-              "fontSize": 14
+              "fontSize": 14,
+              "fontWeight": "normal"
             },
             {
               "type": "frame",
@@ -3098,7 +3158,8 @@
                           "fill": "#94A3B8",
                           "content": "VueJS, Angular, JS/TS",
                           "fontFamily": "JetBrains Mono",
-                          "fontSize": 11
+                          "fontSize": 11,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -3149,7 +3210,8 @@
                           "fill": "#94A3B8",
                           "content": "Node, PHP, Python",
                           "fontFamily": "JetBrains Mono",
-                          "fontSize": 11
+                          "fontSize": 11,
+                          "fontWeight": "normal"
                         }
                       ]
                     }
@@ -3209,7 +3271,8 @@
                           "fill": "#94A3B8",
                           "content": "Docker, K8s, CI/CD",
                           "fontFamily": "JetBrains Mono",
-                          "fontSize": 11
+                          "fontSize": 11,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -3260,7 +3323,8 @@
                           "fill": "#94A3B8",
                           "content": "Mongo, SQL, Elastic",
                           "fontFamily": "JetBrains Mono",
-                          "fontSize": 11
+                          "fontSize": 11,
+                          "fontWeight": "normal"
                         }
                       ]
                     }
@@ -3385,7 +3449,8 @@
                       "fill": "#64748B",
                       "content": "Feb 2025 - Present • Remote (Saudi Arabia)",
                       "fontFamily": "JetBrains Mono",
-                      "fontSize": 10
+                      "fontSize": 10,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -3427,7 +3492,8 @@
                       "fill": "#64748B",
                       "content": "Jan 2022 - Feb 2025 • Remote (USA)",
                       "fontFamily": "JetBrains Mono",
-                      "fontSize": 10
+                      "fontSize": 10,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -3469,7 +3535,8 @@
                       "fill": "#64748B",
                       "content": "Jun 2020 - Jan 2022 • Cairo, Egypt",
                       "fontFamily": "JetBrains Mono",
-                      "fontSize": 10
+                      "fontSize": 10,
+                      "fontWeight": "normal"
                     }
                   ]
                 }
@@ -3512,7 +3579,8 @@
               "content": "I'm always open to discussing new projects and opportunities.",
               "textAlign": "center",
               "fontFamily": "Inter",
-              "fontSize": 13
+              "fontSize": 13,
+              "fontWeight": "normal"
             },
             {
               "type": "frame",
@@ -3613,7 +3681,8 @@
               "fill": "#64748B",
               "content": "© 2025 Hesham Adel",
               "fontFamily": "Inter",
-              "fontSize": 11
+              "fontSize": 11,
+              "fontWeight": "normal"
             }
           ]
         }
