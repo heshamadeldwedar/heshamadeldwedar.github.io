@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hesham Adel | Senior Software Engineer</title>
+    <meta name="description" content="Full-stack engineer crafting scalable, user-centric solutions">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/lucide-static@latest/font/lucide.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-logo">
+            <span class="logo-icon">&lt;/&gt;</span>
+            <span class="logo-text">hesham.dev</span>
+        </div>
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#experience">Experience</a>
+            <a href="#blog" class="active">Blog</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <button class="mobile-menu-btn" aria-label="Menu">
+            <i class="lucide-menu"></i>
+        </button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="terminal-tag animate-on-scroll">
+            <span class="terminal-dot"></span>
+            <span>~/portfolio</span>
+        </div>
+        <div class="avatar animate-on-scroll" style="animation-delay: 0.1s;">
+            <img src="https://api.dicebear.com/7.x/pixel-art/svg?seed=hesham&backgroundColor=0a0f1c" alt="Hesham Adel">
+        </div>
+        <h1 class="hero-name animate-on-scroll" style="animation-delay: 0.2s;">HESHAM ADEL</h1>
+        <p class="hero-title animate-on-scroll" style="animation-delay: 0.3s;">Senior Software Engineer</p>
+        <p class="hero-tagline animate-on-scroll" style="animation-delay: 0.4s;">Full-stack engineer crafting scalable, user-centric solutions</p>
+        <div class="cta-row animate-on-scroll" style="animation-delay: 0.5s;">
+            <a href="mailto:contact@hesham.dev" class="btn btn-primary">
+                <i class="lucide-mail"></i>
+                Email Me
+            </a>
+            <a href="https://linkedin.com/in/heshamadel" class="btn btn-outline" target="_blank">
+                <i class="lucide-linkedin"></i>
+                LinkedIn
+            </a>
+        </div>
+        <div class="info-row animate-on-scroll" style="animation-delay: 0.6s;">
+            <div class="info-item">
+                <i class="lucide-phone"></i>
+                <span>+20 123 456 7890</span>
+            </div>
+            <div class="info-item">
+                <i class="lucide-map-pin"></i>
+                <span>Cairo, Egypt</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section-alt" id="about">
+        <div class="section-header animate-on-scroll">
+            <span class="terminal-prompt">&gt;</span>
+            <span class="section-title">ABOUT</span>
+        </div>
+        <div class="about-content">
+            <p class="about-summary animate-on-scroll">
+                Full-stack Software Engineer with a strong emphasis on product development and user-centric solutions. Specializes in backend development with extensive experience in the Node.js and PHP ecosystems. Proven track record in designing and implementing scalable applications using modern frameworks, including NestJS and Laravel. Proficient in both SQL and NoSQL databases, with hands-on DevOps experience. Combines technical expertise with a product-focused mindset to deliver robust, market-ready solutions.
+            </p>
+            <div class="badge-row animate-on-scroll">
+                <span class="badge">
+                    <i class="lucide-code-2"></i>
+                    Full-Stack Developer
+                </span>
+                <span class="badge">
+                    <i class="lucide-zap"></i>
+                    8+ Years Experience
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="section-header animate-on-scroll">
+            <span class="terminal-prompt">&gt;</span>
+            <span class="section-title">SKILLS</span>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-card animate-on-scroll">
+                <div class="skill-header">
+                    <i class="lucide-monitor"></i>
+                    <span>Frontend</span>
+                </div>
+                <ul class="skill-list">
+                    <li>VueJS</li>
+                    <li>AngularJS</li>
+                    <li>JavaScript/TypeScript</li>
+                </ul>
+            </div>
+            <div class="skill-card animate-on-scroll" style="animation-delay: 0.1s;">
+                <div class="skill-header">
+                    <i class="lucide-server"></i>
+                    <span>Backend</span>
+                </div>
+                <ul class="skill-list">
+                    <li>Node.js / NestJS</li>
+                    <li>PHP / Laravel</li>
+                    <li>Python Flask</li>
+                </ul>
+            </div>
+            <div class="skill-card animate-on-scroll" style="animation-delay: 0.2s;">
+                <div class="skill-header">
+                    <i class="lucide-cloud-cog"></i>
+                    <span>DevOps</span>
+                </div>
+                <ul class="skill-list">
+                    <li>Docker</li>
+                    <li>Kubernetes</li>
+                    <li>CI/CD Pipelines</li>
+                </ul>
+            </div>
+            <div class="skill-card animate-on-scroll" style="animation-delay: 0.3s;">
+                <div class="skill-header">
+                    <i class="lucide-database"></i>
+                    <span>Databases</span>
+                </div>
+                <ul class="skill-list">
+                    <li>MongoDB</li>
+                    <li>PostgreSQL / MySQL</li>
+                    <li>Elasticsearch</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience section-alt" id="experience">
+        <div class="section-header animate-on-scroll">
+            <span class="terminal-prompt">&gt;</span>
+            <span class="section-title">EXPERIENCE</span>
+        </div>
+        <div class="experience-timeline">
+            <div class="exp-card current animate-on-scroll">
+                <div class="exp-header">
+                    <div class="exp-left">
+                        <h3>Moneymoon</h3>
+                        <span class="exp-role">Senior Software Engineer</span>
+                    </div>
+                    <div class="exp-right">
+                        <span class="exp-date">Feb 2025 - Present</span>
+                        <span class="exp-location">Remote (Saudi Arabia)</span>
+                    </div>
+                </div>
+                <ul class="exp-bullets">
+                    <li>Built a centralized integration hub to manage all service integrations</li>
+                    <li>Integrated the new hub endpoint into the existing monolith application</li>
+                    <li>Designed a system for service reconciliation and implemented a circuit breaker for unstable services</li>
+                </ul>
+            </div>
+            <div class="exp-card animate-on-scroll">
+                <div class="exp-header">
+                    <div class="exp-left">
+                        <h3>Pickspace</h3>
+                        <span class="exp-role">Senior Software Engineer</span>
+                    </div>
+                    <div class="exp-right">
+                        <span class="exp-date">Jan 2022 - Feb 2025</span>
+                        <span class="exp-location">Remote (USA)</span>
+                    </div>
+                </div>
+                <ul class="exp-bullets">
+                    <li>Developed scalable property dashboard using AngularJS, PHP, and NodeJS</li>
+                    <li>Built responsive frontend with real-time updates</li>
+                    <li>Implemented integrations: QuickBooks, Payrix, Card Knox, bill.com, Rossum OCR</li>
+                </ul>
+            </div>
+            <div class="exp-card animate-on-scroll">
+                <div class="exp-header">
+                    <div class="exp-left">
+                        <h3>Speakol</h3>
+                        <span class="exp-role">Senior Software Engineer</span>
+                    </div>
+                    <div class="exp-right">
+                        <span class="exp-date">Jun 2020 - Jan 2022</span>
+                        <span class="exp-location">Cairo, Egypt</span>
+                    </div>
+                </div>
+                <ul class="exp-bullets">
+                    <li>Developed scalable dashboard application using VueJS and Laravel</li>
+                    <li>Implemented Stripe and PayPal payment gateways</li>
+                    <li>Integrated QuickBooks API for financial tracking</li>
+                </ul>
+            </div>
+            <div class="exp-card animate-on-scroll">
+                <div class="exp-header">
+                    <div class="exp-left">
+                        <h3>The D.GmbH</h3>
+                        <span class="exp-role">Senior Software Engineer</span>
+                    </div>
+                    <div class="exp-right">
+                        <span class="exp-date">Aug 2019 - May 2020</span>
+                        <span class="exp-location">Cairo, Egypt</span>
+                    </div>
+                </div>
+                <ul class="exp-bullets">
+                    <li>Led development team managing 19 microservices infrastructure</li>
+                    <li>Orchestrated migration from AWS ECS to Google Kubernetes</li>
+                    <li>Developed cost-efficient GPU solution for AI operations</li>
+                </ul>
+            </div>
+            <div class="exp-card animate-on-scroll">
+                <div class="exp-header">
+                    <div class="exp-left">
+                        <h3>Tajawal</h3>
+                        <span class="exp-role">Senior Software Engineer</span>
+                    </div>
+                    <div class="exp-right">
+                        <span class="exp-date">Apr 2018 - Aug 2019</span>
+                        <span class="exp-location">Cairo, Egypt</span>
+                    </div>
+                </div>
+                <ul class="exp-bullets">
+                    <li>Engineered hotel booking system across 76 microservices using NodeJS</li>
+                    <li>Implemented geolocation search using MongoDB and radius queries</li>
+                    <li>Integrated STC Qitaf payment gateway and developed order management system</li>
+                </ul>
+            </div>
+            <div class="exp-card animate-on-scroll">
+                <div class="exp-header">
+                    <div class="exp-left">
+                        <h3>Trufla</h3>
+                        <span class="exp-role">Software Engineer</span>
+                    </div>
+                    <div class="exp-right">
+                        <span class="exp-date">Mar 2017 - Aug 2018</span>
+                        <span class="exp-location">Cairo, Egypt</span>
+                    </div>
+                </div>
+                <ul class="exp-bullets">
+                    <li>Built insurance sales platform using NodeJS APIs</li>
+                    <li>Integrated Converge payment gateway and credit score services</li>
+                    <li>Engineered business interruption insurance system</li>
+                </ul>
+            </div>
+            <div class="exp-card animate-on-scroll">
+                <div class="exp-header">
+                    <div class="exp-left">
+                        <h3>Valleysoft</h3>
+                        <span class="exp-role">Software Engineer</span>
+                    </div>
+                    <div class="exp-right">
+                        <span class="exp-date">Oct 2016 - Mar 2017</span>
+                        <span class="exp-location">Cairo, Egypt</span>
+                    </div>
+                </div>
+                <ul class="exp-bullets">
+                    <li>Engineered banking workflows using IBM BPM</li>
+                    <li>Developed frontend applications using DojoJS</li>
+                    <li>Built responsive user interfaces with JavaScript</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education" id="education">
+        <div class="section-header animate-on-scroll">
+            <span class="terminal-prompt">&gt;</span>
+            <span class="section-title">EDUCATION</span>
+        </div>
+        <div class="edu-card animate-on-scroll">
+            <div class="edu-icon">
+                <i class="lucide-graduation-cap"></i>
+            </div>
+            <div class="edu-content">
+                <h3>Bachelor's Degree in Computer Science</h3>
+                <p class="edu-institution">High Institute of Technology, Shrouk Academy</p>
+                <span class="edu-year">2011 - 2015</span>
+            </div>
+        </div>
+        <div class="edu-card animate-on-scroll">
+            <div class="edu-icon">
+                <i class="lucide-award"></i>
+            </div>
+            <div class="edu-content">
+                <h3>CS50: Introduction to Computer Science</h3>
+                <p class="edu-institution">Harvard University (Online)</p>
+                <span class="edu-year">Certificate</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="blog section-alt" id="blog">
+        <div class="blog-header animate-on-scroll">
+            <div class="section-header">
+                <span class="terminal-prompt">&gt;</span>
+                <span class="section-title">BLOG</span>
+            </div>
+            <a href="#" class="view-all">View All →</a>
+        </div>
+        <div class="blog-grid">
+            <article class="blog-card animate-on-scroll">
+                <span class="blog-tag">DevOps</span>
+                <h3>Migrating from AWS ECS to Kubernetes: Lessons Learned</h3>
+                <p>A deep dive into our migration journey, the challenges we faced, and how we achieved a more cost-efficient infrastructure.</p>
+                <span class="blog-meta">Dec 15, 2024 • 8 min read</span>
+            </article>
+            <article class="blog-card animate-on-scroll" style="animation-delay: 0.1s;">
+                <span class="blog-tag">Backend</span>
+                <h3>Building Scalable Microservices with NestJS</h3>
+                <p>How to structure your NestJS applications for scalability, maintainability, and team collaboration.</p>
+                <span class="blog-meta">Nov 28, 2024 • 12 min read</span>
+            </article>
+            <article class="blog-card animate-on-scroll" style="animation-delay: 0.2s;">
+                <span class="blog-tag">Integration</span>
+                <h3>Payment Gateway Integration: A Complete Guide</h3>
+                <p>Everything you need to know about integrating Stripe, PayPal, and other payment gateways in your applications.</p>
+                <span class="blog-meta">Oct 10, 2024 • 10 min read</span>
+            </article>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer" id="contact">
+        <div class="footer-cta animate-on-scroll">
+            <h2>Let's Build Something Together</h2>
+            <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
+            <div class="footer-btns">
+                <a href="mailto:contact@hesham.dev" class="btn btn-primary">
+                    <i class="lucide-mail"></i>
+                    Email Me
+                </a>
+                <a href="https://linkedin.com/in/heshamadel" class="btn btn-outline" target="_blank">
+                    <i class="lucide-linkedin"></i>
+                    LinkedIn
+                </a>
+            </div>
+        </div>
+        <div class="footer-divider"></div>
+        <div class="footer-bottom">
+            <span>© 2025 Hesham Adel. All rights reserved.</span>
+            <span class="made-with">Built with passion and code</span>
+        </div>
+    </footer>
+
+    <script>
+        // Scroll Animation with Intersection Observer
+        const observerOptions = {
+            root: null,
+            rootMargin: '0px',
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate-visible');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.animate-on-scroll').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Mobile menu toggle
+        const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+        const navLinks = document.querySelector('.nav-links');
+
+        mobileMenuBtn?.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+        // Navbar scroll effect
+        const navbar = document.querySelector('.navbar');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                    navLinks.classList.remove('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
