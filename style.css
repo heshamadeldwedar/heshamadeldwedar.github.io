@@ -214,8 +214,13 @@ ul {
     background: none;
     border: none;
     color: var(--text-primary);
-    font-size: 24px;
     cursor: pointer;
+    padding: 8px;
+}
+
+.mobile-menu-btn svg {
+    width: 24px;
+    height: 24px;
 }
 
 /* ============================================
@@ -312,6 +317,11 @@ ul {
     transition: all 0.3s ease;
 }
 
+.btn svg {
+    width: 18px;
+    height: 18px;
+}
+
 .btn-primary {
     background: var(--accent);
     color: var(--bg-primary);
@@ -350,8 +360,10 @@ ul {
     font-size: 14px;
 }
 
-.info-item i {
+.info-item svg {
     color: var(--accent);
+    width: 16px;
+    height: 16px;
 }
 
 /* ============================================
@@ -423,8 +435,10 @@ section {
     transition: all 0.3s ease;
 }
 
-.badge i {
+.badge svg {
     color: var(--accent);
+    width: 16px;
+    height: 16px;
 }
 
 .badge:hover {
@@ -432,7 +446,7 @@ section {
     color: var(--bg-primary);
 }
 
-.badge:hover i {
+.badge:hover svg {
     color: var(--bg-primary);
 }
 
@@ -466,9 +480,10 @@ section {
     margin-bottom: 16px;
 }
 
-.skill-header i {
+.skill-header svg {
     color: var(--accent);
-    font-size: 20px;
+    width: 20px;
+    height: 20px;
 }
 
 .skill-header span {
@@ -615,9 +630,10 @@ section {
     flex-shrink: 0;
 }
 
-.edu-icon i {
+.edu-icon svg {
     color: var(--accent);
-    font-size: 32px;
+    width: 32px;
+    height: 32px;
 }
 
 .edu-content h3 {
@@ -662,8 +678,24 @@ section {
     transition: transform 0.3s ease;
 }
 
+.view-all {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.view-all svg {
+    width: 14px;
+    height: 14px;
+    transition: transform 0.3s ease;
+}
+
 .view-all:hover {
     transform: translateX(5px);
+}
+
+.view-all:hover svg {
+    transform: translateX(3px);
 }
 
 .blog-grid {

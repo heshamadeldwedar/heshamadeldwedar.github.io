@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/lucide-static@latest/font/lucide.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -19,14 +19,14 @@
             <span class="logo-text">hesham.dev</span>
         </div>
         <div class="nav-links">
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#experience">Experience</a>
-            <a href="#blog" class="active">Blog</a>
-            <a href="#contact">Contact</a>
+            <a href="#about" data-section="about">About</a>
+            <a href="#skills" data-section="skills">Skills</a>
+            <a href="#experience" data-section="experience">Experience</a>
+            <a href="#blog" data-section="blog">Blog</a>
+            <a href="#contact" data-section="contact">Contact</a>
         </div>
         <button class="mobile-menu-btn" aria-label="Menu">
-            <i class="lucide-menu"></i>
+            <i data-lucide="menu"></i>
         </button>
     </nav>
 
@@ -37,28 +37,28 @@
             <span>~/portfolio</span>
         </div>
         <div class="avatar animate-on-scroll" style="animation-delay: 0.1s;">
-            <img src="https://api.dicebear.com/7.x/pixel-art/svg?seed=hesham&backgroundColor=0a0f1c" alt="Hesham Adel">
+            <img src="images/avatar.png" alt="Hesham Adel - Professional Software Developer" onerror="this.src='https://api.dicebear.com/7.x/pixel-art/svg?seed=hesham-dev&backgroundColor=0a0f1c&beard=variant01&glasses=variant01&clothing=variant01&clothingColor=22d3ee'">
         </div>
         <h1 class="hero-name animate-on-scroll" style="animation-delay: 0.2s;">HESHAM ADEL</h1>
         <p class="hero-title animate-on-scroll" style="animation-delay: 0.3s;">Senior Software Engineer</p>
         <p class="hero-tagline animate-on-scroll" style="animation-delay: 0.4s;">Full-stack engineer crafting scalable, user-centric solutions</p>
         <div class="cta-row animate-on-scroll" style="animation-delay: 0.5s;">
             <a href="mailto:contact@hesham.dev" class="btn btn-primary">
-                <i class="lucide-mail"></i>
+                <i data-lucide="mail"></i>
                 Email Me
             </a>
             <a href="https://linkedin.com/in/heshamadel" class="btn btn-outline" target="_blank">
-                <i class="lucide-linkedin"></i>
+                <i data-lucide="linkedin"></i>
                 LinkedIn
             </a>
         </div>
         <div class="info-row animate-on-scroll" style="animation-delay: 0.6s;">
             <div class="info-item">
-                <i class="lucide-phone"></i>
-                <span>+20 123 456 7890</span>
+                <i data-lucide="phone"></i>
+                <span>+201091024404</span>
             </div>
             <div class="info-item">
-                <i class="lucide-map-pin"></i>
+                <i data-lucide="map-pin"></i>
                 <span>Cairo, Egypt</span>
             </div>
         </div>
@@ -76,12 +76,20 @@
             </p>
             <div class="badge-row animate-on-scroll">
                 <span class="badge">
-                    <i class="lucide-code-2"></i>
-                    Full-Stack Developer
+                    <i data-lucide="code"></i>
+                    Full-Stack
                 </span>
                 <span class="badge">
-                    <i class="lucide-zap"></i>
-                    8+ Years Experience
+                    <i data-lucide="layers"></i>
+                    Scalable Systems
+                </span>
+                <span class="badge">
+                    <i data-lucide="users"></i>
+                    Team Leadership
+                </span>
+                <span class="badge">
+                    <i data-lucide="cloud"></i>
+                    DevOps
                 </span>
             </div>
         </div>
@@ -96,7 +104,7 @@
         <div class="skills-grid">
             <div class="skill-card animate-on-scroll">
                 <div class="skill-header">
-                    <i class="lucide-monitor"></i>
+                    <i data-lucide="monitor"></i>
                     <span>Frontend</span>
                 </div>
                 <ul class="skill-list">
@@ -107,7 +115,7 @@
             </div>
             <div class="skill-card animate-on-scroll" style="animation-delay: 0.1s;">
                 <div class="skill-header">
-                    <i class="lucide-server"></i>
+                    <i data-lucide="server"></i>
                     <span>Backend</span>
                 </div>
                 <ul class="skill-list">
@@ -118,7 +126,7 @@
             </div>
             <div class="skill-card animate-on-scroll" style="animation-delay: 0.2s;">
                 <div class="skill-header">
-                    <i class="lucide-cloud-cog"></i>
+                    <i data-lucide="cloud-cog"></i>
                     <span>DevOps</span>
                 </div>
                 <ul class="skill-list">
@@ -129,7 +137,7 @@
             </div>
             <div class="skill-card animate-on-scroll" style="animation-delay: 0.3s;">
                 <div class="skill-header">
-                    <i class="lucide-database"></i>
+                    <i data-lucide="database"></i>
                     <span>Databases</span>
                 </div>
                 <ul class="skill-list">
@@ -278,7 +286,7 @@
         </div>
         <div class="edu-card animate-on-scroll">
             <div class="edu-icon">
-                <i class="lucide-graduation-cap"></i>
+                <i data-lucide="graduation-cap"></i>
             </div>
             <div class="edu-content">
                 <h3>Bachelor's Degree in Computer Science</h3>
@@ -288,7 +296,7 @@
         </div>
         <div class="edu-card animate-on-scroll">
             <div class="edu-icon">
-                <i class="lucide-award"></i>
+                <i data-lucide="award"></i>
             </div>
             <div class="edu-content">
                 <h3>CS50: Introduction to Computer Science</h3>
@@ -305,7 +313,7 @@
                 <span class="terminal-prompt">&gt;</span>
                 <span class="section-title">BLOG</span>
             </div>
-            <a href="#" class="view-all">View All →</a>
+            <a href="#" class="view-all">View All <i data-lucide="arrow-right"></i></a>
         </div>
         <div class="blog-grid">
             <article class="blog-card animate-on-scroll">
@@ -336,11 +344,11 @@
             <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
             <div class="footer-btns">
                 <a href="mailto:contact@hesham.dev" class="btn btn-primary">
-                    <i class="lucide-mail"></i>
+                    <i data-lucide="mail"></i>
                     Email Me
                 </a>
                 <a href="https://linkedin.com/in/heshamadel" class="btn btn-outline" target="_blank">
-                    <i class="lucide-linkedin"></i>
+                    <i data-lucide="linkedin"></i>
                     LinkedIn
                 </a>
             </div>
@@ -353,6 +361,9 @@
     </footer>
 
     <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+
         // Scroll Animation with Intersection Observer
         const observerOptions = {
             root: null,
@@ -380,15 +391,39 @@
             navLinks.classList.toggle('active');
         });
 
-        // Navbar scroll effect
+        // Navbar scroll effect & active section highlighting
         const navbar = document.querySelector('.navbar');
-        window.addEventListener('scroll', () => {
-            if (window.scrollY > 50) {
+        const sections = document.querySelectorAll('section[id]');
+        const navItems = document.querySelectorAll('.nav-links a');
+
+        function updateActiveNav() {
+            const scrollY = window.scrollY;
+
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop - 100;
+                const sectionHeight = section.offsetHeight;
+                const sectionId = section.getAttribute('id');
+
+                if (scrollY >= sectionTop && scrollY < sectionTop + sectionHeight) {
+                    navItems.forEach(item => {
+                        item.classList.remove('active');
+                        if (item.getAttribute('data-section') === sectionId) {
+                            item.classList.add('active');
+                        }
+                    });
+                }
+            });
+
+            // Navbar background on scroll
+            if (scrollY > 50) {
                 navbar.classList.add('scrolled');
             } else {
                 navbar.classList.remove('scrolled');
             }
-        });
+        }
+
+        window.addEventListener('scroll', updateActiveNav);
+        updateActiveNav(); // Initial call
 
         // Smooth scroll for anchor links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
